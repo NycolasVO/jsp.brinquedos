@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Catalogo de Brinquedos</title>
+    <!-- Adicione o link para o arquivo bootstrap.min.css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .brinquedo-card {
+            margin-bottom: 20px;
+        }
+    </style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  	<div class="container-fluid">
+    <a class="navbar-brand" href="#">JSP Brinquedos</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link"  href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./catalogo.html">Catálogo de Brinquedos</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./Adm.html">Administração</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="./sobre.html">Sobre nós</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input name = "pesquisa" class="form-control me-2" type="search" placeholder="Busque seu Brinquedo" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<br>
+
+    <div class="container mt-5">
+        <h1 class="mb-4">Catálogo de Brinquedos</h1>
+
+        <!-- Categoria A -->
+        <h2>Categoria A</h2>
+        <div class="row">
+            <!-- Brinquedo 1 -->
+            <div class="col-md-3">
+                <div class="card brinquedo-card">
+                    <img src="https://static3.tcdn.com.br/img/img_prod/841504/aviao_didatico_colorido_para_montar_e_desmontar_brinquedo_educativo_257535_1_91a950bd39b17e99d226988f71c15d5b.jpg" class="card-img-top" alt="Brinquedo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedo 1</h5>
+                        <p class="card-text">Descrição do Brinquedo 1.</p>
+                        <p class="card-text">Valor: R$ 50,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brinquedo 2 -->
+            <div class="col-md-3">
+                <div class="card brinquedo-card">
+                    <img src="brinquedo2.jpg" class="card-img-top" alt="Brinquedo 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedo 2</h5>
+                        <p class="card-text">Descrição do Brinquedo 2.</p>
+                        <p class="card-text">Valor: R$ 60,00</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Adicione mais brinquedos conforme necessário para a Categoria A -->
+        </div>
+
+        <!-- Categoria B -->
+        <h2 class="mt-4">Categoria B</h2>
+        <div class="row">
+            <!-- Brinquedo 3 -->
+            <div class="col-md-3">
+                <div class="card brinquedo-card">
+                    <img src="brinquedo3.jpg" class="card-img-top" alt="Brinquedo 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedo 3</h5>
+                        <p class="card-text">Descrição do Brinquedo 3.</p>
+                        <p class="card-text">Valor: R$ 70,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brinquedo 4 -->
+            <div class="col-md-3">
+                <div class="card brinquedo-card">
+                    <img src="brinquedo4.jpg" class="card-img-top" alt="Brinquedo 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedo 4</h5>
+                        <p class="card-text">Descrição do Brinquedo 4.</p>
+                        <p class="card-text">Valor: R$ 80,00</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Adicione mais brinquedos conforme necessário para a Categoria B -->
+        </div>
+
+        <!-- Categoria C -->
+        <h2 class="mt-4">Categoria C</h2>
+        <div class="row">
+            <!-- Brinquedo 5 -->
+            <div class="col-md-3">
+                <div class="card brinquedo-card">
+                    <img src="brinquedo5.jpg" class="card-img-top" alt="Brinquedo 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedo 5</h5>
+                        <p class="card-text">Descrição do Brinquedo 5.</p>
+                        <p class="card-text">Valor: R$ 90,00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brinquedo 6 -->
+            <div class="col-md-3">
+                <div class="card brinquedo-card">
+                    <img src="brinquedo6.jpg" class="card-img-top" alt="Brinquedo 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinquedo 6</h5>
+                        <p class="card-text">Descrição do Brinquedo 6.</p>
+                        <p class="card-text">Valor: R$ 100,00</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Adicione mais brinquedos conforme necessário para a Categoria C -->
+        </div>
+
+    </div>
+
+    <!-- Adicione o link para o arquivo bootstrap.bundle.min.js no final do corpo do documento -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+	fetch('/brinquedos', {
+  method: 'GET',
+  headers: {
+    'Content-Type': 'application/json'
+   
+  }
+})
+.then(response => response.json())
+.then(data => {
+ 
+  console.log(data);
+})
+.catch(error => {
+  console.error('Erro:', error);
+});
+</script>
+</body>
+</html>
